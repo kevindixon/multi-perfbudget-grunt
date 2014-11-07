@@ -1,0 +1,10 @@
+{
+	"name": "od-performance-budget",
+	"version": "0.0.1",
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-pagespeed": "~0.3.0",
+		"grunt-yslow": "~0.0.4",
+		"grunt-perfbudget": "~0.1.6"
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "options": {
+    "nokey": true,
+    "url": "http://www.google.com"
+  },
+  "home": {
+    "options": {
+      "paths": ["/"],
+      "locale": "en_GB",
+      "strategy": "desktop",
+      "threshold": 74
+    }
+  },
+  "home-mobile": {
+    "options": {
+      "paths": ["/"],
+      "strategy": "mobile",
+      "locale": "en_GB",
+      "threshold": 74
+    }
+  }
+}
