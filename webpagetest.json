@@ -1,0 +1,40 @@
+{
+	"default": {
+		"comment": [
+			"If you are using a private instance without persistent test agents, then the first",
+			"run at a location can take up to 10 minutes to spin up and start testing.",
+			"So, you should make sure the timeout field for the first run at each location is",
+			"suitably long"
+		],
+		"options": {
+			"key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+			"wptInstance": "www.webpagetest.org",
+			"location": "Wellington:Chrome",
+			"timeout": 300,
+			"connectivity": "Cable",
+			"runs": 1,
+			"budget": {
+				"render": 5500,
+				"loadTime": 9000,
+				"visualComplete": 10000,
+				"bytesIn": 1000000,
+				"requests": 100,
+				"SpeedIndex": 7200
+			}
+		}
+	},
+	"home": {
+		"title": "Google home",
+		"options": {
+			"url": "http://www.google.com",
+			"timeout": 900
+		}
+	},
+	"home (iPhone)": {
+		"title": "Google home (iPhone)",
+		"options": {
+			"url": "http://www.google.com",
+			"timeout": 900
+		}
+	}
+}
