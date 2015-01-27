@@ -1,11 +1,12 @@
 {
 	"name": "od-performance-budget",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"devDependencies": {
 		"grunt": "~0.4.5",
 		"grunt-pagespeed": "~0.4.1",
 		"grunt-yslow": "~0.0.4",
-		"grunt-perfbudget": "~0.1.6"
+		"grunt-perfbudget": "~0.1.6",
+		"grunt-timer": "~0.5.8"
 	},
 	"repository" : { 
 		"type" : "git",

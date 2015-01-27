@@ -2,6 +2,9 @@
 * Grunt definition
 */
 module.exports = function(grunt) {
+	// Time the execution of the task
+	var timer = require("grunt-timer");
+	timer.init(grunt);
 
 	// Project configuration.
 	grunt.initConfig({
