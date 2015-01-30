@@ -5,8 +5,7 @@
 		"grunt": "~0.4.5",
 		"grunt-pagespeed": "~0.4.1",
 		"grunt-yslow": "~0.0.4",
-		"grunt-perfbudget": "~0.1.6",
-		"grunt-timer": "~0.5.8"
+		"grunt-perfbudget": "~0.1.6"
 	},
 	"repository" : { 
 		"type" : "git",
